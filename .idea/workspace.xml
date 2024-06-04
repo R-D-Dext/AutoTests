@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ea7e13d-fe8f-4650-806b-10d193079971" name="Changes" comment="Add project">
+    <list default="true" id="0ea7e13d-fe8f-4650-806b-10d193079971" name="Changes" comment="Add dependency pom (jupiter, selenium)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bellintegrator/BellAfterSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/bellintegrator/BellBeforeSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JunitTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/bellintegrator/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/bellintegrator/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -13,37 +18,155 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "R-D-Dext"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;R-D-Dext&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/R-D-Dext/AutoTests.git",
-    "accountId": "fd8270e0-6608-4a39-bf5a-7867c678cf30"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/R-D-Dext/AutoTests.git&quot;,
+    &quot;accountId&quot;: &quot;fd8270e0-6608-4a39-bf5a-7867c678cf30&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2hMfxLnahCzVwhIOQeKwZLBvBk4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.JunitTests.executor": "Run",
+    "JUnit.JunitTests.ft.executor": "Run",
+    "JUnit.Tests.checkNews.executor": "Run",
+    "JUnit.Tests.checkNewsPO (1).executor": "Run",
+    "JUnit.Tests.checkNewsPO.executor": "Run",
+    "JUnit.Tests.executor": "Run",
+    "Maven.AutoTests [io.qameta.allure:allure-maven:2.10.0:aggregate].executor": "Run",
+    "Maven.AutoTests [io.qameta.allure:allure-maven:2.10.0:bulk].executor": "Run",
+    "Maven.AutoTests [io.qameta.allure:allure-maven:2.10.0:help].executor": "Run",
+    "Maven.AutoTests [io.qameta.allure:allure-maven:2.10.0:install].executor": "Run",
+    "Maven.AutoTests [io.qameta.allure:allure-maven:2.10.0:report].executor": "Run",
+    "Maven.AutoTests [io.qameta.allure:allure-maven:2.10.0:serve].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "firstSeleniumTest",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rddex\IdeaProjects\AutoTests" />
+      <recent name="C:\Users\rddex\IdeaProjects\AutoTests\target" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Tests">
+    <configuration name="JunitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.bellintegrator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.bellintegrator" />
+      <option name="MAIN_CLASS_NAME" value="ru.bellintegrator.Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.checkNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.bellintegrator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.bellintegrator" />
+      <option name="MAIN_CLASS_NAME" value="ru.bellintegrator.Tests" />
+      <option name="METHOD_NAME" value="checkNews" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.checkNewsPO (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.bellintegrator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.bellintegrator" />
+      <option name="MAIN_CLASS_NAME" value="ru.bellintegrator.Tests" />
+      <option name="METHOD_NAME" value="checkNewsPO(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.checkNewsPO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.bellintegrator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.bellintegrator" />
+      <option name="MAIN_CLASS_NAME" value="ru.bellintegrator.Tests" />
+      <option name="METHOD_NAME" value="checkNewsPO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.checkNewsPO (1)" />
+        <item itemvalue="JUnit.Tests.checkNewsPO" />
+        <item itemvalue="JUnit.Tests.checkNews" />
+        <item itemvalue="JUnit.JunitTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,11 +184,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717409288370</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add dependency pom (jupiter, selenium)">
+      <option name="closed" value="true" />
+      <created>1717411728545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717411728545</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add project" />
+    <MESSAGE value="Add dependency pom (jupiter, selenium)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add dependency pom (jupiter, selenium)" />
   </component>
 </project>
